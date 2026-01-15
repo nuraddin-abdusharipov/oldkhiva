@@ -28,8 +28,8 @@ function Cart() {
 
   return (
     <div className="container">
-      <h2>Sizning savatingiz</h2>
-      {cart.length === 0 && <p>Savatingiz bo'sh</p>}
+      <h2 style={{color:"white"}}>Sizning savatingiz</h2>
+      {cart.length === 0 && <p style={{color: "white"}}>Savatingiz bo'sh</p>}
 
       <div className="cart-grid">
         {cart.map((item) => (

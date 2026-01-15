@@ -60,8 +60,8 @@ Yangi buyurtma 🛒
     };
 
     return (
-        <div className="container">
-            <h2>Checkout</h2>
+        <div className="container1">
+            <h2 style={{color:"white"}}>Checkout</h2>
             <form className="checkout-form" onSubmit={handleSubmit}>
                 <input type="text" placeholder="Ism" value={name} onChange={e => setName(e.target.value)} />
                 <input type="text" placeholder="Familiya" value={surname} onChange={e => setSurname(e.target.value)} />

@@ -36,12 +36,12 @@ Har bir taom uchun faqat yangi va yuqori sifatli ingredientlar.</p>
       <section className="about">
         <div className="about-grid">
           <div className="about-text">
-            <h2 style={{textAlign: "center"}}>Biz haqimizda</h2>
-            <p style={{textAlign: "center"}}>
+            <h2 style={{textAlign: "center", color: "white"}}>Biz haqimizda</h2>
+            <p style={{textAlign: "center", color: "white"}}>
              Bizning restoranimiz 1 yildan ortiq vaqt mobaynida jamiyatga eng sifatli taomlar bilan xizmat qilib kelmoqda.
               Biz yangi ingredientlar, gigiena va mijozlar ehtiyojini qondirishga e'tibor qaratamiz. Bizning oshpazlarimiz mahalliy va xalqaro oshxonalar bo'yicha mutaxassislardir.
             </p>
-            <p style={{textAlign:"center"}}>
+            <p style={{textAlign:"center", color: "white"}}>
               Biz gamburger va pitssadan tortib an'anaviy taomlarga qadar har bir taomni mehr va g'amxo'rlik bilan tayyorlaymiz.
               Ajoyib ovqatlanish tajribasi uchun bizga qo'shiling yoki tez yetkazib berish uchun onlayn buyurtma bering.
             </p>
@@ -54,7 +54,7 @@ Har bir taom uchun faqat yangi va yuqori sifatli ingredientlar.</p>
 
       {/* Testimonials Section */}
       <section className="testimonials">
-        <h2 style={{textAlign: "center"}}>Mijozlarimiz nima deydi?</h2>
+        <h2 style={{textAlign: "center", color: "white"}}>Mijozlarimiz nima deydi?</h2>
         <div className="testimonials-grid">
           <div className="testimonial-card">
             <p>"Ajoyib taom! Tez yetkazib berish va juda mazali. Tavsiya etaman!"</p>

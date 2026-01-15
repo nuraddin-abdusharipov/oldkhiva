@@ -132,13 +132,13 @@ const foods = [
 
 function Menu() {
   const { addToCart } = useCart();
-  const [filter, setFilter] = useState("All");
+  const [filter, setFilter] = useState("Barchasi");
 
-  const filteredFoods = filter === "All" ? foods : foods.filter(f => f.category === filter);
+  const filteredFoods = filter === "Barchasi" ? foods : foods.filter(f => f.category === filter);
 
   return (
     <div className="container">
-      <h2 style={{textAlign:"center"}}>Menu</h2>
+      <h2 style={{textAlign:"center", color: "white"}}>Menu</h2>
 
       {/* Filter buttons */}
       <div className="filter-buttons">

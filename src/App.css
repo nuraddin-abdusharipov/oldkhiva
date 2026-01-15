@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #f5f7fa;
+  background: linear-gradient(90deg, dodgerblue 0%, white 100%);
   color: #333;
   line-height: 1.6;
 }
@@ -56,6 +56,11 @@ button {
 }
 /* ===== CONTAINER ===== */
 .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+.container1 {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
@@ -107,7 +112,7 @@ button {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #2575fc;
+  color: white;
 }
 
 .features-grid {
@@ -315,7 +320,7 @@ button {
   margin-top: 1rem;
   font-size: 1.3rem;
   font-weight: 600;
-  color: #2575fc;
+  color: white;
 }
 
 .checkout-btn {
@@ -337,7 +342,9 @@ button {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background: #fff;
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  backdrop-filter: calc(100px);
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -347,8 +354,15 @@ button {
 .checkout-form textarea {
   padding: 0.7rem 1rem;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  backdrop-filter: calc(50px);
   font-size: 1rem;
+  background: transparent;
+  color: white;
+}
+.checkout-form input::placeholder,
+.checkout-form textarea::placeholder{
+  color: white;
 }
 
 .checkout-form input:focus,
